@@ -61,3 +61,68 @@ button:hover{
     border-radius: 5px;
 }
 
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Bigger form box */
+.container{
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+/* Bigger title */
+h2{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+/* Bigger input box */
+input{
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Bigger button */
+button{
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+/* Back button styling */
+.back-btn{
+    display: inline-block;
+    margin-top: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+
